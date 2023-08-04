@@ -1,0 +1,44 @@
+.trend_games {
+  background-color: black;
+  border: 1px solid red;
+  text-align: center;
+  padding-left: 147px;
+}
+.trend_games .curently_trend_games {
+  display: flex;
+  color: #FFF;
+  font-family: Rubik;
+}
+.trend_games .curently_trend_games .curently_trend_games_title {
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 187.5%;
+  margin-right: 600px;
+  /* 58.125px */
+}
+.trend_games .curently_trend_games a {
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 187.5%;
+  /* 37.5px */
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+}
+.trend_games .curently_trend_games_cards {
+  display: flex;
+}
+.trend_games .curently_trend_games_cards :not(:last-child) {
+  margin-right: 50px;
+}
+.trend_games .curently_trend_games_cards .curently_trend_games-card {
+  width: 251px;
+  height: 277px;
+  flex-shrink: 0;
+}

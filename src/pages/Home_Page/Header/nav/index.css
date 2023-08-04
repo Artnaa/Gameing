@@ -1,0 +1,73 @@
+nav {
+  display: flex;
+  color: #FFF;
+  box-sizing: border-box;
+  /* Base */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* 25.6px */
+}
+nav p {
+  margin: 52px 0 0 55px;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 153.5%;
+}
+nav ul {
+  max-width: 505px;
+  width: 100%;
+  margin: 52px 0 0 566px;
+  padding: 0;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 88px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 88px;
+}
+nav ul li a {
+  text-decoration: none;
+  width: max-content;
+  cursor: pointer;
+  /* Base */
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav ul :nth-child(4) {
+  margin-right: 40px;
+}
+nav .contactsLink {
+  max-width: 131.771px;
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 52px;
+  height: 41.343px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #FA9021;
+  margin-right: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

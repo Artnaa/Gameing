@@ -1,0 +1,103 @@
+footer {
+  background: #070707;
+  color: #FFF;
+  font-family: Poppins;
+  height: 376px;
+  flex-shrink: 0;
+}
+footer .footer_container {
+  display: flex;
+  align-items: center;
+}
+footer .footer_container div {
+  margin-top: 70px;
+}
+footer .footer_container ul {
+  margin: 0;
+  padding: 0;
+}
+footer .footer_container .footer_content {
+  margin-left: 100px;
+}
+footer .footer_container .footer_content .footer_content_logo {
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 153.5%;
+  margin-top: 0;
+}
+footer .footer_container .footer_content .footer_content_text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 372px;
+  height: 58px;
+  flex-shrink: 0;
+  display: block;
+  margin-right: 40px;
+}
+footer .footer_container .footer_content .footer_content_text_instagram {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .footer_container .footer_content_titles {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer .footer_container .footer_content_about_company .footer_abouts_us_content {
+  width: 350px;
+  height: 117px;
+  flex-shrink: 0;
+  list-style: none;
+}
+footer .footer_container .footer_contacts {
+  margin-right: 80px;
+}
+footer .footer_container .footer_contacts .footer_contacts_content {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: none;
+}
+footer .footer_container .footer_contacts .footer_contacts_content :first-child {
+  width: 282px;
+  height: 76px;
+  flex-shrink: 0;
+}
+footer .footer_container .footer_contacts .footer_contacts_content :nth-child(2) {
+  width: 141px;
+  height: 28px;
+  flex-shrink: 0;
+}
+footer .footer_container .fototer_social_contants {
+  display: flex;
+  margin-right: 120px;
+}
+footer .footer_container .fototer_social_contants img {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+footer .footer_container .fototer_social_contants :not(:last-child) {
+  margin-right: 16px;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 25px 0;
+  font-family: Poppins;
+  border-top: 1px solid white;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.6%;
+}

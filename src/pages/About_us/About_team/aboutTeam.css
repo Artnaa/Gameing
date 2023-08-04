@@ -1,0 +1,120 @@
+.about_team_section {
+  color: #FFF;
+  font-family: Poppins;
+  height: 1200px;
+  background: linear-gradient(177deg, #010101 0%, #1A0E01 100%);
+}
+.about_team_section .team_staff {
+  padding-top: 148px;
+  margin-left: 110px;
+  margin-right: 66px;
+}
+.about_team_section .team_staff span {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180.5%;
+}
+.about_team_section .team_staff .staff_cards {
+  border: 4px solid blue;
+  display: flex;
+}
+.about_team_section .team_staff .staff_cards :not(:last-child) {
+  margin-right: 25px;
+}
+.about_team_section .team_staff .staff_cards .staff_card_content {
+  text-align: center;
+  max-width: 295px;
+  width: 100%;
+  height: 253px;
+  flex-shrink: 0;
+  border: 1px solid red;
+}
+.about_team_section .team_staff .staff_cards .staff_card_content .staff_profile_avatar {
+  width: 123px;
+  height: 123px;
+  flex-shrink: 0;
+  margin: 0;
+}
+.about_team_section .team_staff .staff_cards .staff_card_content h3 {
+  margin: 0;
+  padding: 0;
+}
+.about_team_section .register_mail {
+  margin: 157px 135px 0 135px;
+}
+.about_team_section .register_mail .register_mail_title {
+  display: start;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%;
+}
+.about_team_section .register_mail :nth-child(2) {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+.about_team_section .register_mail .retister_mail_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1170px;
+  width: 100%;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #1C140F;
+}
+.about_team_section .register_mail .retister_mail_container .retister_mail_container_text {
+  width: 50%;
+}
+.about_team_section .register_mail .retister_mail_container .retister_mail_container_text .retister_mail_container_text_titile {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.about_team_section .register_mail .retister_mail_container .retister_mail_container_text .retister_mail_container_text_subtitile {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about_team_section .register_mail .retister_mail_container .retister_mail_container_input {
+  position: relative;
+}
+.about_team_section .register_mail .retister_mail_container .retister_mail_container_input input {
+  padding: 14px 0 14px 22px;
+  text-align: start;
+  width: 385.679px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+}
+.about_team_section .register_mail .retister_mail_container .retister_mail_container_input input ::placeholder {
+  color: red;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.about_team_section .register_mail .retister_mail_container .retister_mail_container_input button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  max-width: 104.996px;
+  width: 100%;
+  height: 37px;
+  border-radius: 8px;
+  background: #DC7000;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

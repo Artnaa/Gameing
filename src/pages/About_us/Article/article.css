@@ -1,0 +1,46 @@
+.game_info {
+  color: #FFF;
+  font-family: Poppins;
+  background: #1C140F;
+  height: 603px;
+  flex-shrink: 0;
+  display: flex;
+}
+.game_info .game_info_photo {
+  width: 496px;
+  height: 490px;
+  flex-shrink: 0;
+  background-image: url(/src/pages/About_us/assets/images/Rectangle\ 25.png);
+  margin-top: 113px;
+  margin-left: 110px;
+}
+.game_info .game_info_article {
+  margin-left: 95px;
+  margin-top: 134px;
+  margin-right: 208px;
+}
+.game_info .game_info_article :first-child {
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 202.5%;
+}
+.game_info .game_info_article :nth-child(2) {
+  width: 531px;
+  height: 150px;
+  flex-shrink: 0;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 157.5%;
+}
+.game_info .game_info_article :nth-child(3) {
+  width: 536px;
+  height: 159px;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 202.5%;
+}

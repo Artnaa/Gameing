@@ -1,0 +1,67 @@
+.reasonsWhyWorkWithCompany {
+  margin: 144px 110px 0 110px;
+}
+.reasonsWhyWorkWithCompany span {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180.5%;
+}
+.reasonsWhyWorkWithCompany .reasonsTabs {
+  display: flex;
+  justify-content: space-around;
+  gap: 48px;
+}
+.reasonsWhyWorkWithCompany .reasonsTabs .reasonsTab {
+  width: 378px;
+  height: 348px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #1C140F;
+}
+.reasonsWhyWorkWithCompany .reasonsTabs .reasonsTab .reasonsTabContent {
+  margin-left: 37px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.reasonsWhyWorkWithCompany .reasonsTabs .reasonsTab .reasonsTabContent button {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%;
+  border-radius: 8px;
+  background: rgba(176, 0, 220, 0.11);
+  width: 140px;
+  height: 39px;
+  flex-shrink: 0;
+}
+.reasonsWhyWorkWithCompany .reasonsTabs .reasonsTab .reasonsTabContent .secondTabButton {
+  background: rgba(220, 66, 0, 0.11);
+}
+.reasonsWhyWorkWithCompany .reasonsTabs .reasonsTab .reasonsTabContent .thirdTabButton {
+  background: rgba(0, 220, 141, 0.11);
+}
+.reasonsWhyWorkWithCompany .reasonsTabs .reasonsTab .reasonsTabContent span {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%;
+}
+.reasonsWhyWorkWithCompany .reasonsTabs .reasonsTab .reasonsTabContent p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 187.5%;
+  width: 304px;
+  height: 108px;
+  flex-shrink: 0;
+}
