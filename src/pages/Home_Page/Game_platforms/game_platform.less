@@ -1,17 +1,20 @@
 .game_platforms {
   color: #FFF;
+  font-family: Poppins;
   text-align: center;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
-
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), rgba(0, 0, 0, 0.54);
+  background-image: url(../Assets/images/Game_device_platform/Rectangle\ 5\ background.png);
   backdrop-filter: blur(2px);
   width: 1440px;
   height: 881px;
   flex-shrink: 0;
 
   .game_platforms_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     .game_platform_title {
       font-family: Poppins;
@@ -32,8 +35,55 @@
       width: 820px;
       height: 60px;
       flex-shrink: 0;
+      margin: 0;
+
 
       /* 30px */
+    }
+
+    .game_devices_container {
+      margin-top: 100px;
+      // border: 1px solid white;
+      display: flex;
+      flex-direction: column;
+
+      .game_devices_container_first_line {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+        .game_devices_container_first_line_card {
+          // border: 1px solid red;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .game_devices_container_first_line_card_icon {
+            flex-shrink: 0;
+            width: max-content;
+            // border-radius: 25px;
+          }
+
+          p {
+            text-align: center;
+            width: 220px;
+            padding: 30px 0;
+            margin: 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 187.5%;
+            /* 30px */
+          }
+        }
+      }
+
+      .game_devices_container_second_line {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 50px;
+      }
     }
   }
 }

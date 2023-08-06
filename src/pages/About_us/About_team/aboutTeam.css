@@ -16,7 +16,6 @@
   line-height: 180.5%;
 }
 .about_team_section .team_staff .staff_cards {
-  border: 4px solid blue;
   display: flex;
 }
 .about_team_section .team_staff .staff_cards :not(:last-child) {
@@ -28,7 +27,6 @@
   width: 100%;
   height: 253px;
   flex-shrink: 0;
-  border: 1px solid red;
 }
 .about_team_section .team_staff .staff_cards .staff_card_content .staff_profile_avatar {
   width: 123px;
