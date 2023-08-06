@@ -1,8 +1,10 @@
 .trend_games {
-  background-color: black;
-  border: 1px solid red;
+  // background-color: black;
+  // border: 1px solid red;
   text-align: center;
   padding-left: 147px;
+  padding-top: 200px;
+  height: 600px;
 
   .curently_trend_games {
     // margin-left: 147px;
@@ -39,26 +41,42 @@
 
   .curently_trend_games_cards {
     display: flex;
-    :not(:last-child){
+
+    :not(:last-child) {
       margin-right: 50px;
     }
 
 
     .curently_trend_games-card {
+      margin-top: 60px;
       width: 251px;
       height: 277px;
       flex-shrink: 0;
-      
-
 
       .card_background_image {
-       
 
-        span {
+      }
 
-          img {}
+      span {
+        // color: #FFF;
+        color: white;
+        font-family: Rubik;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 187.5%;
+
+        /* 41.25px */
+        img {
+          width: 25px;
+          height: 25px;
+          flex-shrink: 0;
+          margin-top: 30px;
+          
         }
       }
     }
+
+
   }
 }
