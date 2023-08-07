@@ -6,6 +6,7 @@ import React from 'react';
 import Aboutuspage from './pages/About_us/Aboutuspage';
 import Nav from './pages/About_us/Header/nav';
 import HomePage from './pages/Home_Page/HomePage';
+import Services from './pages/Porfolio';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -15,7 +16,8 @@ function App() {
   return (
     <div className="App">
       {/* <Aboutuspage/> */}
-      <HomePage />
+      {/* <HomePage /> */}
+      <Services />
 
 
 
