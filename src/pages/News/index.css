@@ -1,0 +1,9 @@
+.news_page_container {
+  color: #FFF;
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(161deg, #050301 0%, #150C01 100%);
+}

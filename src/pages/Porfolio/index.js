@@ -1,5 +1,5 @@
 import "./index.css"
-import Nav from "../About_us/Header/nav"
+import Nav from "../../pages/Home_Page/Header/nav/index"
 import Footer from '../About_us/Footer/footer'
 import React, { useState } from 'react';
 

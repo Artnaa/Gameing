@@ -1,4 +1,4 @@
-import Nav from "./nav"
+import Nav from "../../Home_Page/Header/nav/index"
 import AboutUs from "./AboutUs/abouUs";
 import "./style.css";
 import Reasons from "../Reasons/reasons";

@@ -42,6 +42,7 @@ function Footer() {
           <a href="wwww.instagram.com"><img src={instagramlogo} alt="instagram_logo" /></a>
           <a href="www.twitter.com"><img src={twiterlogo} alt="twitter_logo" /></a>
           <a href="wwww.linkedin.com"><img src={linkedinlogo} alt="facebook_logo" /></a>
+          
         </div>
       </div>
       <span className="copyright">Copyright ® 2021 Lorem All rights Rcerved</span>

@@ -13,7 +13,7 @@ function Nav() {
         <li><a href="/portfolio">Portfolio</a></li>
         <li><a href="/news">News</a></li>
       </ul>
-      <a href="#" className="contactsLink">Contacts</a>
+      <a href="/contacts" className="contactsLink">Contacts</a>
     </nav>
 
   )
